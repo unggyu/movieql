@@ -44,6 +44,6 @@ export const people = [
 ];
 
 export const getByid = id => {
-    const filteredPeople = movies.filter(person => people.id === id);
+    const filteredPeople = people.filter(person => person.id === String(id));
     return filteredPeople[0];
 }
