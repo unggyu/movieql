@@ -8,10 +8,9 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.0",
+    "babel-node": "^0.0.1-security",
     "graphql-yoga": "^1.18.3",
-    "node-fetch": "^2.6.1",
-    "react": "^17.0.1",
-    "react-scripts": "^4.0.1"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",
@@ -25,7 +24,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "nodemon --exec babel-node index.js",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
