@@ -24,10 +24,6 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "homepage": "https://unggyu.github.io/movieql/"
+    "start": "nodemon --exec babel-node index.js"
+  }
 }
