@@ -6,6 +6,7 @@
   "repository": "https://github.com/unggyu/movieql",
   "author": "unggyu<cdr982116@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "axios": "^0.21.0",
     "babel-node": "^0.0.1-security",
@@ -34,6 +35,6 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "node ./index.js"
   }
 }
